@@ -1,0 +1,311 @@
+.body {
+  user-select: none;
+}
+
+.App {
+  background-color: black;
+  overflow: hidden;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-weight: 600;
+}
+
+.Fight-Main-Field{
+  display: flex;
+  width: 1000px;
+  height: 800px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  flex-direction: column;
+}
+
+.Fighting-Display-Area{
+  position: absolute;
+  width: 1000px;
+  height: 600px;
+  background-color: rgb(252, 252, 252);
+  display: flex;
+  flex-direction: row;
+}
+
+.Fighting-Display-Left>div{
+  left: 5px;
+  top: 5px;
+}
+
+.Fighting-Display-Right>div{
+  right: 5px;
+  bottom: 5px;
+}
+
+.info-card{
+  position: absolute;
+  width: 390px;
+  height: 140px;
+  border: 5px solid rgb(1, 51, 53);
+  border-radius: 50px 5px 50px 5px;
+  background-color: rgb(244, 246, 248);
+}
+
+.Fighting-Footer{
+  position: absolute;
+  top: 600px;
+  width: 1000px;
+  height: 200px;
+  background-color: aquamarine;
+}
+
+.FightingPrepareArea{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  top: 0px;
+  width: 1000px;
+  height: 200px;
+  background-color: rgb(61, 62, 66);
+}
+
+.FightingPrepareArea>div{
+  width: 970px;
+  height: 170px;
+  border: 10px solid rgb(176, 178, 180);
+  border-radius: 15px;
+  background-color: rgb(244, 246, 248);
+  margin: 5px;
+}
+
+.Fighting-Control-Area{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  top: 0px;
+  width: 1000px;
+  height: 200px;
+  background-color: rgb(61, 62, 66);
+}
+
+.Fighting-Control-Area>div{
+  border: 10px solid rgb(176, 178, 180);
+  border-radius: 15px;
+  background-color: rgb(244, 246, 248);
+  margin: 5px 5px;
+  height: auto;
+  font-size: 40px;
+}
+
+.attack-table{
+  width: 580px;
+  display: flex;
+  flex-direction: column;
+}
+
+.attack-table>div{
+  display: flex;
+  flex-direction: row;
+}
+
+.attack-tag{
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  height: 100px;
+  font-size: 28px;
+}
+
+.App {
+  overflow: hidden;
+}
+
+.attack-tag>div{
+  margin-left: 8px;
+}
+
+.attack-info{
+  width: 380px;
+}
+
+@keyframes typing {
+  from { width: 0 }
+}
+
+.Fighting-Text-Area{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 0px;
+  width: 980px;
+  height: 180px;
+  border: 10px solid rgb(176, 178, 180);
+  background-color: rgb(244, 246, 248);
+}
+
+.text-input{
+  display: flex;
+  text-align: right;
+  font-size: 40px;
+  height: 100px;
+  overflow: hidden;
+  white-space: nowrap;
+  animation-iteration-count: infinite;
+}
+
+.blackScreen{
+
+}
+
+@keyframes dimToBlackEnd{
+  from{
+    opacity: 1;
+  }
+  to{
+    opacity: 0;
+  }
+}
+
+@keyframes dimToBlackBegin{
+  from{
+    opacity: 0;   
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+.HomePage{
+  border: 5px double black;
+  box-sizing: border-box;
+  background: white;
+  width: 1000px;
+  height: 800px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.HomePage a{
+  font-size: 2rem;
+  text-decoration: none;
+  color: #999;
+  transition: all 300ms;
+}
+
+.HomePage a:hover{
+  transform: scale(1.2);
+  color: black;
+}
+
+.form{
+  width: 1000px;
+  height: 800px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  border: 5px double black;
+  box-sizing: border-box;
+  background: white;
+}
+
+.form .box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  padding: 40px;
+  background: rgba(0,0,0,0.8);
+  box-sizing: border-box;
+}
+
+.form .box h2{
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+
+.form input{
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+}
+
+.form .box .inputBox{
+  position: relative;
+
+}
+.form .box .inputBox input{
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+
+.form .box .inputBox label{
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.form .box .inputBox input:valid ~ label,
+.form .box .inputBox input:focus ~ label{
+    top: -18px;
+    left: 0;
+    color: white;
+    font-size: 12px;
+}
+
+.form .box input[type="submit"]{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 10px 20px;
+    background: grey;
+    cursor:  pointer;
+    border-radius: 5px;
+    transition: all 300ms;
+}
+
+.form .box input[type="submit"]:hover{
+  background: white;
+  color: black;
+}
+
+.form a{
+  font-size: .8rem;
+  text-decoration: underline;
+  color: grey;
+  transition: all 300ms;
+}
+
+.form a:hover{
+  color: white;
+  transform: scale(1.1);
+}

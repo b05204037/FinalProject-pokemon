@@ -1,0 +1,20 @@
+{
+  "name": "final-project-pokemon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b05201019/final-project-pokemon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/b05201019/final-project-pokemon/issues"
+  },
+  "homepage": "https://github.com/b05201019/final-project-pokemon#readme"
+}
